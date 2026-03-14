@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farooq Khan Pathan - Portfolio</title>
+    <meta name="description" content="Portfolio of Farooq Khan Pathan, an experienced IT professional specializing in infrastructure monitoring, cloud operations, DevOps, and AI.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <canvas id="animated-bg" class="background-elements"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#home" class="logo">FKP<span class="dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section-spacing">
+        <div class="hero-content fade-in-up">
+            <p class="greeting">Hi, I am</p>
+            <h1 class="name">Farooq Khan <span class="highlight">Pathan</span></h1>
+            <h2 class="title">Cloud Ops & DevOps | AI Integration Engineer</h2>
+            <p class="hero-desc">
+                Passionate about leveraging AI and automation to modernize IT operations, 
+                reduce manual intervention, and drive continuous improvement.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+            <div class="social-links mt-4">
+                <a href="https://linkedin.com/in/farooq710" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/farooq710" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:farooqpathan710@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-spacing">
+        <div class="section-header fade-in">
+            <h2>About <span class="highlight">Me</span></h2>
+            <div class="line"></div>
+        </div>
+        <div class="about-content glass-card fade-in-up">
+            <p>
+                Experienced IT professional with a strong foundation in <strong>CloudOps, ITOps, DevOps, and intelligent automation</strong>. 
+                Adept at managing and maintaining enterprise-level IT environments, ensuring high availability, operational stability, and rapid incident resolution.
+            </p>
+            <p>
+                Passionate about leveraging AI and automation to modernize IT operations, reduce manual intervention, and drive continuous improvement across infrastructure and DevOps workflows. 
+                Holds multiple cloud certifications and brings a proactive, problem-solving mindset to every challenge.
+            </p>
+            <div class="education mt-4">
+                <h3>Highest Qualification</h3>
+                <p><strong>B.Tech, Electronics and Communication Engineering</strong></p>
+                <p class="text-muted">KKR and KSR Institute of Technology and Sciences (2020 – 2024)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-spacing">
+        <div class="section-header fade-in">
+            <h2>Technical <span class="highlight">Skills</span></h2>
+            <div class="line"></div>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card glass-card fade-in-up stagger-1">
+                <i class="fas fa-code tech-icon"></i>
+                <h3>Languages</h3>
+                <p>Python, Bash, YAML</p>
+            </div>
+            
+            <div class="skill-card glass-card fade-in-up stagger-2">
+                <i class="fas fa-cloud tech-icon"></i>
+                <h3>Cloud Platforms</h3>
+                <p>AWS (EC2, VPC, S3, IAM, CloudWatch), GCP</p>
+            </div>
+
+            <div class="skill-card glass-card fade-in-up stagger-3">
+                <i class="fas fa-cogs tech-icon"></i>
+                <h3>Config & CI/CD</h3>
+                <p>Ansible, Ansible Playbooks, GitLab CI</p>
+            </div>
+
+            <div class="skill-card glass-card fade-in-up stagger-4">
+                <i class="fab fa-docker tech-icon"></i>
+                <h3>Containerization</h3>
+                <p>Docker, Kubernetes (Amazon EKS)</p>
+            </div>
+
+            <div class="skill-card glass-card fade-in-up stagger-1">
+                <i class="fas fa-chart-line tech-icon"></i>
+                <h3>Monitoring</h3>
+                <p>Prometheus, Grafana, Datadog, Nagios, ELK Stack</p>
+            </div>
+
+            <div class="skill-card glass-card fade-in-up stagger-2">
+                <i class="fas fa-brain tech-icon"></i>
+                <h3>AI & ML</h3>
+                <p>AIOps, GenAI, LLM Integration, Agentic AI, Machine Learning</p>
+            </div>
+            
+            <div class="skill-card glass-card fade-in-up stagger-3">
+                <i class="fas fa-network-wired tech-icon"></i>
+                <h3>Networking</h3>
+                <p>TCP/IP, Load Balancers, VPC Networking</p>
+            </div>
+            
+            <div class="skill-card glass-card fade-in-up stagger-4">
+                <i class="fas fa-shield-alt tech-icon"></i>
+                <h3>ITOps & Sec</h3>
+                <p>Alert Handling, Auto-remediation, VAPT, Cloud Security, ITSM</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section-spacing">
+        <div class="section-header fade-in">
+            <h2>Professional <span class="highlight">Experience</span></h2>
+            <div class="line"></div>
+        </div>
+        
+        <div class="timeline">
+            <!-- Job 1 -->
+            <div class="timeline-item fade-in-left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <span class="date">April 2025 – Present</span>
+                    <h3>Associate Analyst - IT NOC</h3>
+                    <h4>PurpleTalk India Pvt Ltd | Hyderabad, India</h4>
+                    <ul>
+                        <li>Monitored critical on-premises and cloud project servers using Nagios, Grafana, and Datadog, ensuring 99.9% uptime.</li>
+                        <li>Handled system and server administration tasks, including DevOps-level responsibilities like deployment support.</li>
+                        <li>Designed and deployed an enterprise AI-powered ITOps auto-remediation agent, adopted in production.</li>
+                        <li>Performed initial diagnostics, triaged and escalated critical incidents.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Job 2 -->
+            <div class="timeline-item fade-in-right">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <span class="date">Sept 2024 – April 2025</span>
+                    <h3>Technical Support Associate</h3>
+                    <h4>Firstsource Solutions Limited | Hyderabad, India</h4>
+                    <ul>
+                        <li>Delivered technical assistance to end users, resolving hardware, software, and connectivity issues.</li>
+                        <li>Supported incident management lifecycle including logging, tracking, and escalation.</li>
+                        <li>Contributed to knowledge base development by documenting recurring issues and solutions.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-spacing">
+        <div class="section-header fade-in">
+            <h2>Featured <span class="highlight">Projects</span></h2>
+            <div class="line"></div>
+        </div>
+        
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card glass-card fade-in-up stagger-1">
+                <div class="project-content">
+                    <h3>AI-Powered ITOps Auto Remediation Agent</h3>
+                    <p class="tech-stack">AIOps | ITOps | DevOps</p>
+                    <p class="project-desc">
+                        Architected an enterprise-grade AI-driven system that intelligently detects, analyzes, and resolves infrastructure issues. 
+                        Integrated with ELK Stack for automated root cause analysis via LLMs. Implemented Ansible playbooks for automated remediation 
+                        with a Human-in-the-Loop approval mechanism for safety.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card glass-card fade-in-up stagger-2">
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>Heart Stroke Prediction using Bio Signals</h3>
+                        <a href="https://github.com/farooq710" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                    <p class="tech-stack">Deep Learning | ANN | Python</p>
+                    <p class="project-desc">
+                        Designed and trained a deep learning Artificial Neural Network model on ECG and PPG biosignal patient datasets. 
+                        Achieved over 92% accuracy in predicting cardiac events, outperforming conventional ML baselines through 
+                        advanced feature engineering.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section-spacing">
+        <div class="section-header fade-in">
+            <h2><span class="highlight">Certifications</span></h2>
+            <div class="line"></div>
+        </div>
+        <div class="certs-grid">
+            <div class="cert-card glass-card fade-in-up stagger-1">
+                <i class="fab fa-google text-google"></i>
+                <h4>Google Cloud Certified</h4>
+                <p>Associate Cloud Engineer</p>
+            </div>
+            <div class="cert-card glass-card fade-in-up stagger-2">
+                <i class="fas fa-server text-oracle"></i>
+                <h4>Oracle Cloud Infrastructure (OCI) 2025</h4>
+                <p>Certified Architect Associate</p>
+            </div>
+            <div class="cert-card glass-card fade-in-up stagger-3">
+                <i class="fab fa-aws text-aws"></i>
+                <h4>AWS Certified</h4>
+                <p>Cloud Practitioner</p>
+            </div>
+            <div class="cert-card glass-card fade-in-up stagger-4">
+                <i class="fab fa-windows text-ms"></i>
+                <h4>Microsoft Certified</h4>
+                <p>Azure AI Fundamentals (AI-900)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="footer">
+        <div class="footer-content fade-in">
+            <h2>Let's <span class="highlight">Connect</span></h2>
+            <p>Currently open to new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+            <a href="mailto:farooqpathan710@gmail.com" class="btn btn-primary mt-4">Say Hello <i class="fas fa-paper-plane ml-2"></i></a>
+            
+            <div class="footer-social mt-4">
+                <a href="https://linkedin.com/in/farooq710" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/farooq710" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            
+            <p class="copyright">
+                &copy; <span id="current-year"></span> Farooq Khan Pathan. Built with <i class="fas fa-heart text-danger"></i>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+Farooq Khan Pathan
+Hyderabad, T.S| +91 9704069431| farooqpathan710@gmail.com                                                          | linkedin.com/in/farooq710  | github.com/farooq710
+Professional Summary
+Experienced IT professional with a strong foundation in infrastructure monitoring, cloud operations, DevOps, and intelligent
+automation.  Adept at managing and maintaining enterprise-level IT environments, ensuring high availability, operational
+stability, and rapid incident resolution.  Passionate about leveraging AI and automation to modernize IT operations, reduce
+manual intervention, and drive continuous improvement across infrastructure and DevOps workflows.  Holds multiple cloud
+certifications and brings a proactive, problem-solving mindset to every challenge.
+Technical Skills
+Languages:  Python, Bash, YAML
+Cloud Platforms:  AWS (EC2, VPC, S3, IAM, CloudWatch), GCP — Configuration Management:  Ansible, Ansible
+Playbooks
+Containerization & Orchestration:  Docker, Kubernetes (Amazon EKS) — CI/CD: GitLab CI
+Monitoring and Observability:  Prometheus, Grafana, Datadog, Nagios, ELK Stack — Databases:  MongoDB Atlas, SQL
+AI: AIOps, GenAI, LLM Integration, Agentic AI, Machine Learning — Version Control & Collaboration:  GitLab,
+GitHub
+Networking Fundamentals:  TCP/IP, Load Balancers, VPC Networking — Security & DevSecOps:  VAPT, Cloud
+Security
+ITOps:  Alert Handling, Incident Response, Infrastructure Monitoring, Log Analysis, Network Troubleshooting, ITSM (ITIL
+Concepts)
+Professional Experience
+Associate Analyst - IT NOC                                                                                                April 2025 – Present
+PurpleTalk India Pvt Ltd                                                                           Hyderabad, India
+•
+Monitored critical on-premises and cloud project servers using Nagios, Grafana, and Datadog, ensuring 99.9% uptime
+across production environments.
+•
+Handled system and server administration tasks, frequently stepping into DevOps-level responsibilities including
+deployment support and infrastructure troubleshooting.
+•
+Designed and deployed an enterprise AI-powered ITOps auto-remediation agent, adopted in production at the company
+level.
+•
+Performed initial diagnostics, triaged and escalated critical incidents, and maintained smooth uninterrupted project
+operations.
+Technical Support Associate                                                                                             Sept 2024 – April 2025
+Firstsource Solutions Limited                                                                      Hyderabad, India
+•
+Delivered technical assistance to end users, resolving hardware, software, and connectivity issues with high first-call
+resolution rates.
+•
+Supported incident management lifecycle including logging, tracking, escalation, and resolution documentation to
+improve support processes.
+•
+Contributed to knowledge base development by documenting recurring issues and solutions to enhance team efficiency.
+Projects
+AI-Powered ITOps Auto Remediation Agent| AIOps, ITOps, DevOps
+•
+Architected and deployed an enterprise-grade AI-driven ITOps auto-remediation system that intelligently detects,
+analyzes, and resolves infrastructure issues across company servers with minimal human intervention.
+•
+Integrated a monitoring data source, correlating alerts with logs and metrics via ELK Stack to perform automated root
+cause analysis, infrastructure pattern detection, and future failure predictions using LLM-based log analysis.
+•
+Leveraged Large LLM to read and interpret infrastructure logs — enabling intelligent root cause analysis, recurring
+pattern recognition, and predictive insights to proactively prevent future incidents.
+•
+Implemented Ansible playbooks as the execution layer to automatically remediate identified infrastructure issues.
+•
+Incorporated a Human-in-the-Loop approval mechanism ensuring all remediation actions are reviewed and authorized by
+an engineer before execution — maintaining operational safety and enterprise change management compliance.
+•
+Successfully adopted and deployed in production across company infrastructure, reducing MTTR and maintaining a full
+audit trail of every agent action taken.
+----------------Page (0) Break----------------
+AI-Based Heart Stroke Prediction using ECG and PPG Bio Signals| Deep Learning, ANN, Python| GitHub
+•
+Designed and trained a deep learning model using Artificial Neural Networks (ANN) on ECG and PPG biosignal patient
+datasets to predict cardiac events with over 92% accuracy.
+•
+Outperformed conventional ML decision-making baselines through deep learning model optimization and feature
+engineering — demonstrating superior reliability for medical prediction tasks.
+Highest Qualification
+KKR and KSR Institute of Technology and Sciences                                                                         2020 – 2024
+B.Tech, Electronics and Communication Engineering
+Certifications
+Google Cloud Certified — Associate Cloud Engineer
+Oracle Cloud Infrastructure (OCI) 2025 — Certified Architect Associate
+AWS Certified — Cloud Practitioner
+Microsoft Certified — Azure AI Fundamentals (AI-900)
+----------------Page (1) Break----------------
